@@ -27,7 +27,7 @@ a{
 }
 
 li{
-    padding: 5px;    
+    padding: 0px 20px;    
     border-right: #EBEBEB 1px solid;
 }
 
@@ -46,7 +46,7 @@ body{
 
 section{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -61,10 +61,21 @@ section{
     padding: 10px;
 }
 
+#contato{
+    display: flex;
+    gap: 20px;
+}
+
 .info{
     align-items: center;
     padding: 20px;
     height: 100%;
+    width: 100%;
+    justify-self: justify;
+}
+
+#bd{
+    width: 100%;
 }
 
 #b-principal{
@@ -87,6 +98,17 @@ section{
     background-color: #C6B07F;
     align-items: center;
     color: #EBEBEB;
+    height: 41px;
+}
+
+#carrosel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bc{
+    width: 95%;
+    padding: 0px 0px 10px 0px;
 }
 
 span{
