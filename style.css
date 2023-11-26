@@ -11,14 +11,19 @@ header{
     justify-content: space-between;
     color: #fff;
     padding: 3px;
+    width: 980px;
+    margin: auto;
 }
 
-.logo{
-    display: flex;
+header img{
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-h1{
-    color: #1BB4E8;
+#titulo h1{
+    color: #1bb4e8;
+    margin-top: 10px;
 }
 
 a{
@@ -31,13 +36,17 @@ li{
     border-right: #EBEBEB 1px solid;
 }
 
+ul :last-child{
+    border: none;
+}
+
 ul{
     display: flex;
     flex-direction: row;
     margin-top: 70px;
     justify-content: space-between;
     list-style-type: none;
-    padding: 20px;
+    padding:10px 5px;
 }
 
 body{
@@ -45,9 +54,12 @@ body{
 }
 
 section{
+    width: 980px;
+    margin: auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 #conteiner{
@@ -55,14 +67,16 @@ section{
     position: absolute;
     z-index: 1;
     opacity: 0.9;
-    right: 30px;
-    top: 190px;
-    width: 389px;
-    padding: 10px;
+    right: 300px;
+    top: 330px;
+    width: 440px;
+    padding: 30px;
+    color: #fff;
 }
 
 #contato{
     display: flex;
+    margin-top: 20px;
     gap: 20px;
 }
 
@@ -79,7 +93,8 @@ section{
 }
 
 #b-principal{
-    width: 100vw;
+    margin: auto;
+    align-items: center;
 }
 
 #destino{
@@ -90,7 +105,8 @@ section{
 }
 
 #position{
-    position: relative;
+    margin: auto;
+    width: 980px;
 }
 
 #frota{
@@ -111,6 +127,18 @@ section{
     padding: 0px 0px 10px 0px;
 }
 
+h4{
+    font-size: 24px;
+}
+
 span{
     color: #C6B07F;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    color: #000;
 }
